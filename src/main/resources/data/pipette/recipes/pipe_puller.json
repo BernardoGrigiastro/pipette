@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "ihi",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "h": {
+            "item": "minecraft:hopper"
+        }
+    },
+    "result": {
+        "item": "pipette:pipe_puller",
+        "count": 4
+    }
+}

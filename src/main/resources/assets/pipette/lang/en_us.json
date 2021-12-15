@@ -1,0 +1,12 @@
+{
+    "itemGroup.pipette.pipette_tab": "Pipette",
+
+    "item.pipette.pipe": "Pipe",
+    "block.pipette.pipe": "Pipe",
+
+    "item.pipette.pipe_puller": "Puller Pipe",
+    "block.pipette.pipe_puller": "Puller Pipe",
+
+    "item.pipette.pipe_filter": "Filter Pipe",
+    "block.pipette.pipe_filter": "Filter Pipe"
+}

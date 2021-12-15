@@ -1,0 +1,110 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "facing": "north"
+            },
+            "apply": {
+                "model": "pipette:block/pipe_core_puller"
+            }
+        },
+        {
+            "when": {
+                "facing": "east"
+            },
+            "apply": {
+                "model": "pipette:block/pipe_core_puller",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "south"
+            },
+            "apply": {
+                "model": "pipette:block/pipe_core_puller",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "west"
+            },
+            "apply": {
+                "model": "pipette:block/pipe_core_puller",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "facing": "down"
+            },
+            "apply": {
+                "model": "pipette:block/pipe_core_puller",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "up"
+            },
+            "apply": {
+                "model": "pipette:block/pipe_core_puller",
+                "x": -90
+            }
+        },
+        {
+            "when": {
+                "north": "true"
+            },
+            "apply": {
+                "model": "pipette:block/pipe_join"
+            }
+        },
+        {
+            "when": {
+                "east": "true"
+            },
+            "apply": {
+                "model": "pipette:block/pipe_join",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "south": "true"
+            },
+            "apply": {
+                "model": "pipette:block/pipe_join",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "west": "true"
+            },
+            "apply": {
+                "model": "pipette:block/pipe_join",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "up": "true"
+            },
+            "apply": {
+                "model": "pipette:block/pipe_join",
+                "x": -90
+            }
+        },
+        {
+            "when": {
+                "down": "true"
+            },
+            "apply": {
+                "model": "pipette:block/pipe_join",
+                "x": 90
+            }
+        }
+    ]
+}

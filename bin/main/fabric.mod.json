@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "pipette",
+  "version": "${version}",
+  "name": "Pipette",
+  "description": "Pipette is the WYSIWYG of pipe mods. Moves items! That's it!",
+  "authors": [
+    "octalide"
+  ],
+  "contact": {
+    "website": "https://github.com/octalide",
+    "repo": "https://github.com/octalide/pipette"
+  },
+  "license": "MIT",
+  "icon": "assets/pipette/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.octalide.pipette.client.PipetteClient"
+    ],
+    "main": [
+      "io.octalide.pipette.Pipette"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.11",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}

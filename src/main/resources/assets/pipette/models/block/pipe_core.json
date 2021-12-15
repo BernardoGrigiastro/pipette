@@ -1,0 +1,24 @@
+{
+	"credit": "octalide",
+	"parent": "block/block",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "pipette:block/pipe_core",
+		"particle": "pipette:block/pipe_core"
+	},
+	"elements": [
+		{
+			"from": [1, 1, 1],
+			"to": [15, 15, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 1, 1]},
+			"faces": {
+				"north": {"uv": [8, 0, 15, 7], "texture": "#1"},
+				"east": {"uv": [8, 0, 15, 7], "texture": "#1"},
+				"south": {"uv": [8, 0, 15, 7], "texture": "#1"},
+				"west": {"uv": [8, 0, 15, 7], "texture": "#1"},
+				"up": {"uv": [8, 0, 15, 7], "texture": "#1"},
+				"down": {"uv": [8, 0, 15, 7], "texture": "#1"}
+			}
+		}
+	]
+}

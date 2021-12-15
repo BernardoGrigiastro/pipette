@@ -6,4 +6,4 @@ Pipette only works with items. There are no plans to support fluids or other mod
 
 Pipette is somewhat efficient, but wasn't designed for large scale server use and may cause unwanted lag for very large amounts of interconnected pipes (in the thousands).
 
-Visit the wiki for information on crafting recipies and usage.
+Visit the wiki for information on crafting recipes and usage.
